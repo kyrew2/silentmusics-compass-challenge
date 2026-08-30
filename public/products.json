@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "artista": "Pantera",
+    "album": "Vulgar Display of Power",
+    "genero": "Metal",
+    "formato": "Vinil",
+    "ano": 1992,
+    "preco": 189.90,
+    "capa": "/covers/VulgarDisplayOfPower.jpg"
+  },
+  {
+    "id": 2,
+    "artista": "AC/DC",
+    "album": "Back in Black",
+    "genero": "Rock",
+    "formato": "Vinil",
+    "ano": 1980,
+    "preco": 169.90,
+    "capa": "/covers/BackInBlack.jpg"
+  },
+  {
+    "id": 3,
+    "artista": "My Chemical Romance",
+    "album": "The Black Parade",
+    "genero": "Emo",
+    "formato": "CD",
+    "ano": 2006,
+    "preco": 79.90,
+    "capa": "/covers/TheBlackParade.jpg"
+  },
+  {
+    "id": 4,
+    "artista": "Metallica",
+    "album": "Master of Puppets",
+    "genero": "Metal",
+    "formato": "CD",
+    "ano": 1986,
+    "preco": 84.90,
+    "capa": "/covers/MasterOfPuppets.jpg"
+  },
+  {
+    "id": 5,
+    "artista": "Black Sabbath",
+    "album": "Paranoid",
+    "genero": "Rock",
+    "formato": "Vinil",
+    "ano": 1970,
+    "preco": 199.90,
+    "capa": "/covers/Paranoid.jpg"
+  },
+  {
+    "id": 6,
+    "artista": "Misfits",
+    "album": "Walk Among Us",
+    "genero": "Punk",
+    "formato": "Vinil",
+    "ano": 1982,
+    "preco": 159.90,
+    "capa": "/covers/WalkAmongUs.jpg"
+  },
+  {
+    "id": 7,
+    "artista": "Nirvana",
+    "album": "Nevermind",
+    "genero": "Rock",
+    "formato": "CD",
+    "ano": 1991,
+    "preco": 69.90,
+    "capa": "/covers/Nevermind.jpg"
+  },
+  {
+    "id": 8,
+    "artista": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "genero": "Metal",
+    "formato": "Vinil",
+    "ano": 1982,
+    "preco": 179.90,
+    "capa": "/covers/TheNumberOfTheBeast.jpg"
+  }
+]

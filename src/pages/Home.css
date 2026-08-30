@@ -1,0 +1,51 @@
+.home {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+
+.hero {
+  padding: 3rem 0 2.5rem;
+}
+
+.hero__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-rust-bright);
+  margin: 0 0 0.8rem;
+}
+
+.hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.08;
+  margin: 0 0 1rem;
+  color: var(--color-bone);
+  max-width: 14ch;
+}
+
+.hero__subtitle {
+  color: var(--color-fog);
+  font-size: 1rem;
+  max-width: 46ch;
+  margin: 0;
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.home__status {
+  color: var(--color-fog);
+  font-family: var(--font-mono);
+  padding: 2rem 0;
+}
+
+.home__status--error {
+  color: var(--color-rust-bright);
+}

@@ -1,0 +1,64 @@
+.como-fiz {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+.como-fiz__intro h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  color: var(--color-bone);
+  margin: 0.4rem 0 1rem;
+}
+
+.como-fiz__intro p {
+  color: var(--color-fog);
+  max-width: 60ch;
+}
+
+.como-fiz__video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--color-panel);
+  border: 1px solid var(--color-static);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 2rem 0 2.5rem;
+}
+
+.como-fiz__video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.como-fiz__notas h2 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--color-bone);
+  margin-bottom: 1rem;
+}
+
+.como-fiz__notas ul {
+  padding-left: 1.2rem;
+  color: var(--color-fog);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.como-fiz__notas code {
+  font-family: var(--font-mono);
+  background: var(--color-static);
+  padding: 0.1rem 0.4rem;
+  border-radius: 2px;
+  color: var(--color-bone);
+  font-size: 0.85em;
+}
+
+.como-fiz__notas strong {
+  color: var(--color-bone);
+}

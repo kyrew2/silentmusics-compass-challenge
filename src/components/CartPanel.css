@@ -1,0 +1,127 @@
+.btn {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  padding: 0.65rem 1rem;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+.btn--primary {
+  background: var(--color-rust);
+  color: var(--color-bone);
+}
+
+.btn--primary:hover {
+  background: var(--color-rust-bright);
+}
+
+.btn--outline {
+  background: transparent;
+  border-color: var(--color-fog);
+  color: var(--color-bone);
+}
+
+.btn--outline:hover {
+  border-color: var(--color-rust-bright);
+  color: var(--color-rust-bright);
+}
+
+.cart-panel__vazio {
+  color: var(--color-fog);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.cart-panel__lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cart-panel__item {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--color-static);
+  padding-bottom: 1rem;
+}
+
+.cart-panel__item img {
+  border-radius: 2px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cart-panel__item-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.cart-panel__item-titulo {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-bone);
+}
+
+.cart-panel__item-artista {
+  margin: 0.1rem 0 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-fog);
+}
+
+.cart-panel__qtd {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+}
+
+.cart-panel__qtd button {
+  background: var(--color-static);
+  border: none;
+  color: var(--color-bone);
+  width: 22px;
+  height: 22px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.cart-panel__item-preco {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+.cart-panel__remover {
+  background: none;
+  border: none;
+  color: var(--color-fog);
+  font-size: 0.72rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+.cart-panel__remover:hover {
+  color: var(--color-rust-bright);
+}
+
+.cart-panel__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  color: var(--color-bone);
+  padding: 0.8rem 0;
+  border-top: 1px solid var(--color-static);
+  margin-bottom: 1rem;
+}
