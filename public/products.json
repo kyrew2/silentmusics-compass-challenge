@@ -7,7 +7,8 @@
     "formato": "Vinil",
     "ano": 1992,
     "preco": 189.90,
-    "capa": "/covers/VulgarDisplayOfPower.jpg"
+    "capa": "/covers/VulgarDisplayOfPower.jpg",
+    "descricao": "Considerado um marco do groove metal, traz riffs pesados e uma produção crua que influenciou toda uma geração de bandas do gênero."
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "formato": "Vinil",
     "ano": 1980,
     "preco": 169.90,
-    "capa": "/covers/BackInBlack.jpg"
+    "capa": "/covers/BackInBlack.jpg",
+    "descricao": "Um dos álbuns mais vendidos da história do rock, gravado em homenagem ao vocalista anterior da banda e marcado por riffs simples e diretos."
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "formato": "CD",
     "ano": 2006,
     "preco": 79.90,
-    "capa": "/covers/TheBlackParade.jpg"
+    "capa": "/covers/TheBlackParade.jpg",
+    "descricao": "Álbum conceitual sobre a vida, a morte e o que vem depois, com uma pegada teatral que mistura rock alternativo e elementos de ópera."
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "formato": "CD",
     "ano": 1986,
     "preco": 84.90,
-    "capa": "/covers/MasterOfPuppets.jpg"
+    "capa": "/covers/MasterOfPuppets.jpg",
+    "descricao": "Álbum que consolidou o thrash metal como gênero de peso, com faixas longas, mudanças de andamento e letras sobre controle e manipulação."
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "formato": "Vinil",
     "ano": 1970,
     "preco": 199.90,
-    "capa": "/covers/Paranoid.jpg"
+    "capa": "/covers/Paranoid.jpg",
+    "descricao": "Um dos discos fundadores do heavy metal, com riffs pesados e um clima sombrio que definiu o som do gênero nas décadas seguintes."
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "formato": "Vinil",
     "ano": 1982,
     "preco": 159.90,
-    "capa": "/covers/WalkAmongUs.jpg"
+    "capa": "/covers/WalkAmongUs.jpg",
+    "descricao": "Álbum de estreia que uniu punk rock com temática de terror e ficção científica, tornando-se referência para o horror punk."
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "formato": "CD",
     "ano": 1991,
     "preco": 69.90,
-    "capa": "/covers/Nevermind.jpg"
+    "capa": "/covers/Nevermind.jpg",
+    "descricao": "Álbum que levou o grunge ao mainstream mundial, marcado por letras introspectivas e uma sonoridade entre o pop e o punk."
   },
   {
     "id": 8,
@@ -77,6 +84,7 @@
     "formato": "Vinil",
     "ano": 1982,
     "preco": 179.90,
-    "capa": "/covers/TheNumberOfTheBeast.jpg"
+    "capa": "/covers/TheNumberOfTheBeast.jpg",
+    "descricao": "Disco que consolidou a formação clássica da banda, com faixas que se tornariam hinos do heavy metal britânico."
   }
 ]

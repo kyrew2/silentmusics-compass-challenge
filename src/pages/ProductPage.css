@@ -1,0 +1,100 @@
+.product-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.product-page__voltar {
+  display: inline-block;
+  color: var(--color-fog);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-page__voltar:hover {
+  color: var(--color-rust-bright);
+}
+
+.product-page__conteudo {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 640px) {
+  .product-page__conteudo {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product-page__capa {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-static);
+}
+
+.product-page__info h1 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: var(--color-bone);
+  margin: 0.6rem 0 0.3rem;
+}
+
+.product-page__artista {
+  color: var(--color-fog);
+  margin: 0 0 1rem;
+}
+
+.product-page__preco {
+  font-family: var(--font-mono);
+  font-size: 1.3rem;
+  color: var(--color-bone);
+  margin-bottom: 1.5rem;
+}
+
+.product-page__acoes {
+  display: flex;
+  gap: 0.75rem;
+  max-width: 420px;
+}
+
+.product-page__status {
+  color: var(--color-fog);
+  font-family: var(--font-mono);
+}
+
+.product-page__ficha {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-static);
+  border-bottom: 1px solid var(--color-static);
+}
+
+.product-page__ficha dt {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-fog);
+  margin-bottom: 0.2rem;
+}
+
+.product-page__ficha dd {
+  margin: 0;
+  color: var(--color-bone);
+  font-size: 0.95rem;
+}
+
+.product-page__descricao {
+  color: var(--color-fog);
+  line-height: 1.6;
+  max-width: 60ch;
+  margin-bottom: 1.5rem;
+}
