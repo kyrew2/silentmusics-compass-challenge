@@ -34,31 +34,3 @@
   height: 100%;
   border: 0;
 }
-
-.como-fiz__notas h2 {
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  color: var(--color-bone);
-  margin-bottom: 1rem;
-}
-
-.como-fiz__notas ul {
-  padding-left: 1.2rem;
-  color: var(--color-fog);
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.como-fiz__notas code {
-  font-family: var(--font-mono);
-  background: var(--color-static);
-  padding: 0.1rem 0.4rem;
-  border-radius: 2px;
-  color: var(--color-bone);
-  font-size: 0.85em;
-}
-
-.como-fiz__notas strong {
-  color: var(--color-bone);
-}
