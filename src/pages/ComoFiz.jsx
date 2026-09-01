@@ -1,7 +1,5 @@
 import './ComoFiz.css';
 
-const VIDEO_ID = 'SEU_VIDEO_ID_AQUI';
-
 export function ComoFiz() {
   return (
     <main className="como-fiz">
@@ -12,7 +10,7 @@ export function ComoFiz() {
 
       <div className="como-fiz__video">
         <iframe
-          src={`https://www.youtube-nocookie.com/embed/${VIDEO_ID}`}
+          src={`https://www.youtube.com/embed/euGj9-6Vr6k?si=HMIVAqri9CoSNvm8`}
           title="Como eu fiz a Silent Musics"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
